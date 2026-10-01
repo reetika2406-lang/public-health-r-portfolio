@@ -455,7 +455,10 @@ Error: unexpected input in "        └"
 > smoking_data <- read_csv(
 +   file.path(project_path, "data", "Trends.csv")
 + )
-[1mindexing[0m [34mTrends.csv[0m [======================================] [32m14.56MB/s[0m, eta: [36m 0s[0m                                                                                                                   Rows: 14 Columns: 27
+
+[1mindexing[0m [34mTrends.csv[0m [======================================] [32m14.56MB/s[0m, eta: [36m 0s[0m
+                                                                                                                   
+Rows: 14 Columns: 27
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr  (7): Indicator Name, Area Code, AreaName, Area Type, Sex, Age, Time per...
@@ -611,7 +614,10 @@ Error: object 'trends' not found
 > library(tidyverse)
 > 
 > trends <- read_csv("data/Trends.csv")
-[1mindexing[0m [34mTrends.csv[0m [=====================================] [32m187.50MB/s[0m, eta: [36m 0s[0m                                                                                                                   Rows: 14 Columns: 27
+
+[1mindexing[0m [34mTrends.csv[0m [=====================================] [32m187.50MB/s[0m, eta: [36m 0s[0m
+                                                                                                                   
+Rows: 14 Columns: 27
 ── Column specification ────────────────────────────────────────────────────────
 Delimiter: ","
 chr  (7): Indicator Name, Area Code, AreaName, Area Type, Sex, Age, Time per...
